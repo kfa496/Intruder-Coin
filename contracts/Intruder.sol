@@ -1,4 +1,4 @@
-pragma solidity 0.5.16;
+pragma solidity ^0.5.16;
 contract Intruder {
 	string public name = "Intruder Token";
 	string public symbol = "IGX";
