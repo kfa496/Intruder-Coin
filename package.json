@@ -1,0 +1,17 @@
+{
+	"name": "Intruder-Sale",
+	"version": "1.0.0",
+	"description": "Intruder Token Sale ICO",
+	"main": "truffle.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts" : {
+		"dev" : "lite-server"
+	},
+	"author": "Yogesh Singh Rajawat",
+	"license": "ISC",
+	"devDependencies": {
+		"lite-server": "7.6.0"
+	}
+}
