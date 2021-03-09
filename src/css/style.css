@@ -1,0 +1,363 @@
+{
+    margin : 0;
+    padding : 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* CSS Variables */
+:root{
+    --navbar-height: 15px;
+
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(35, 60, 64);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9 ;
+}
+
+/* Logo and images */
+#logo{
+    margin: 10px 15px;
+}
+
+#logo img{
+    height: 100px;
+    margin: 3px 6px;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: white;
+    background-color:rgb(35, 60, 64);
+}
+
+#home{
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    padding:3px 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../img/hero.png') no-repeat center center/cover ;
+    height: 690px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+
+}
+
+#home h1{
+    color: rgb(29, 86, 219);
+    text-align: center;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'RocknRoll One', sans-serif;
+    
+}
+
+#home p{
+    color: rgb(0, 76, 252);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playball', cursive;
+}
+
+/* Services Section */
+#services{
+    margin: 50px;
+    display: flex;
+}
+
+#services-container::before{
+    content: "";
+    position: absolute;
+    background: url('../img/black.png') no-repeat center center/cover ;
+    height: 660px;
+    top: 960px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+#services-container h1{
+    color: rgb(29, 86, 219);
+    text-align: center;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'RocknRoll One', sans-serif;
+    
+}
+#services-container h3{
+    color: rgb(29, 86, 219);
+    text-align: center;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'Playball', cursive;
+    
+}
+
+#services .box{
+  width: 50%;
+  margin: 50px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+    border: 20px;
+    padding: 45px;
+    margin: 50px;
+    border-radius: 70px;
+    background:rgb(54, 242, 245);
+    
+    
+}
+
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*Intro Section */
+#intro h2{
+    color: white;
+    text-align: center;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'Akaya Telivigala', cursive;
+    
+}
+
+#intro h3{
+    color : blue;
+    text-align: left;
+   font-family: 'Akaya Telivigala', cursive;
+}
+
+#intro::before{
+    content: "";
+    position: absolute;
+    background: url('../img/blueBG.jpg') no-repeat center center/cover ;
+    height: 550px;
+    top: 690px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+#intro img{
+    float: left;
+}
+#intro .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:;
+}
+
+#intro .flex-container .box {
+  background-color:;
+  width: 50%;
+  margin: 50px;
+  text-align: left;
+  line-height: 45px;
+  font-size: 40px;
+}
+
+/*Fin Section */
+#fin h2{
+    color: white;
+    text-align: center;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'Akaya Telivigala', cursive;
+    
+}
+
+#fin h3{
+    color : blue;
+    text-align: left;
+   font-family: 'Akaya Telivigala', cursive;
+}
+
+#fin::before{
+    content: "";
+    position: absolute;
+    background: url('../img/blueBG.jpg') no-repeat center center/cover ;
+    height: 550px;
+    top: 1240px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+#fin img{
+    float: left;
+}
+#fin .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:;
+}
+
+#fin .flex-container .box {
+  background-color:;
+  width: 50%;
+  margin: 50px;
+  text-align: left;
+  line-height: 45px;
+  font-size: 40px;
+}
+
+/*Asset Section */
+#asset h2{
+    color: white;
+    text-align: center;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'Akaya Telivigala', cursive;
+    
+}
+
+#asset h3{
+    color : blue;
+    text-align: left;
+   font-family: 'Akaya Telivigala', cursive;
+}
+
+#asset::before{
+    content: "";
+    position: absolute;
+    background: url('../img/blueBG.jpg') no-repeat center center/cover ;
+    height: 550px;
+    top: 1790px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+#asset img{
+    float: left;
+}
+#asset .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:;
+}
+
+#asset .flex-container .box {
+  background-color:;
+  width: 50%;
+  margin: 50px;
+  text-align: left;
+  line-height: 45px;
+  font-size: 40px;
+}
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+    background: url('../img/blueBG.jpg') no-repeat center center/cover;
+
+}
+#contact h1{
+    color: rgb(29, 86, 219);
+    text-align: center;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'RocknRoll One', sans-serif;
+    
+}
+#contact .h-primary{
+    color: black;
+    font-family: 'Stalinist One', cursive;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+}
+#contact-box input,
+#contact-box form-group{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding:9px 10px;
+}
